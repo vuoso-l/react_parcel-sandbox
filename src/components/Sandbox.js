@@ -15,11 +15,11 @@ const Sandbox = () => {
   const [webList, setWebList] = useState([]);
   const [titleImage, setTitleImage] = useState("");
   const [urlImage, setUrlImage] = useState("");
-  const [urlWebpage, setUrlWebpage] = useState();
+  const [urlWebpage, setUrlWebpage] = useState("");
 
   const handleTitle = () => {
     const h1Title = prompt(
-      "Ingresá el título que quieras según las fotos que subiste"
+      "Ingresá el título que quieras según las webs que subiste"
     );
     setTitle(h1Title);
   };
