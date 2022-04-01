@@ -28,7 +28,7 @@ module.exports = {
     "react/jsx-uses-react": "off",
     "react/react-in-jsx-scope": "off",
     "prettier/prettier": [
-      "warn",
+      "error",
       {
         trailingComma: "all",
         tabWidth: 2,
@@ -41,7 +41,7 @@ module.exports = {
       },
     ],
     "no-unused-vars": [
-      "warn",
+      "error",
       {
         args: "after-used",
         ignoreRestSiblings: false,
@@ -49,7 +49,7 @@ module.exports = {
       },
     ],
     "import/order": [
-      "warn",
+      "error",
       {
         groups: [
           "type",
@@ -74,7 +74,7 @@ module.exports = {
     "react/self-closing-comp": "warn",
 
     "padding-line-between-statements": [
-      "warn",
+      "error",
       { blankLine: "always", prev: "*", next: "return" },
       { blankLine: "always", prev: ["const", "let", "var"], next: "*" },
       {

@@ -21,8 +21,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint \"**/*.js\" --ignore-path .gitignore",
-    "prettier": "prettier \"**/*.js\" --write --ignore-path .gitignore",
+    "lint": "eslint . --fix --ignore-path .gitignore",
+    "prettier": "prettier . --write --ignore-path .gitignore",
     "prepare": "husky install"
   },
   "eslintConfig": {
