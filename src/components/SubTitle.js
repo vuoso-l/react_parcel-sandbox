@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const Subtitle = () => {
   const [title, setTitle] = useState("Texto a modificar");
