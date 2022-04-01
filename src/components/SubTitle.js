@@ -5,8 +5,9 @@ const Subtitle = () => {
 
   const handleTitle = () => {
     const h2Title = prompt(
-      "Ingresá el título que quieras según las webs que subiste"
+      "Ingresá el título que quieras según las webs que subiste",
     );
+
     setTitle(h2Title);
   };
 
